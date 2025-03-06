@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --black: black;
+    --white: white;
+}
+
+body {
+    font-family: sans-serif;
+}
+
+.main-container {
+    display: flex;
+    border: 2px solid var(--black);
+    border-radius: 2rem;
+    padding: 5rem;
+    margin: 2rem;
+}
+.center {
+    text-align: center;
+    cursor: pointer;
+}
+
+.first-object:hover {
+    .tooltip, i{
+    visibility: visible;
+    }
+}
+.icon{
+    visibility: hidden;
+    margin-top: -15px;
+    font-size: 40px;
+}
+
+.tooltip{
+    background: var(--black);
+    color: var(--white);
+    padding: 1rem;
+    border-radius: 1rem;
+    visibility: hidden;
+}
+.second-object:hover{
+    .tooltip, i{
+        visibility: visible;
+        }
+}
